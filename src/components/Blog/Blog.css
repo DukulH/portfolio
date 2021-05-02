@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+svg text{
+    stroke: #216d7a;
+    font-family: 'Roboto', sans-serif;
+    font-size:80px;
+    font-weight: 700;
+    stroke-width: 5;
+    animation: textAnimate 5s infinite alternate;
+}
+@keyframes textAnimate{
+    0%{
+        stroke-dasharray: 0 50%;
+    }
+    100%{
+        stroke-dasharray: 50% 0;
+    }
+}
+
+.underLineStyle{
+    display: inline-block;
+    position: relative;
+}
+
+.underLineStyle::after{
+    content: '';
+    width: 100%;
+    border: 1px dashed #FFE800;
+    
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+
+}
+
+.blogStyle{
+    margin-top: 120px;
+    
+}

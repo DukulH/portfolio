@@ -1,0 +1,109 @@
+
+.githubBtn{
+    color: #E04343;
+    background-color: #122333;
+    padding: 10px 25px;
+    border: solid 1px ;
+    text-align: center;
+    background: linear-gradient(to left, #fff 50%, #122333 50%) right;
+    background-size: 200%;
+    transition: .4s ease-out;
+    margin: 5px;
+    border-radius: 5px;
+}
+.githubBtn:hover{
+    transform:scale(.98);
+    background-position: left;
+}
+
+.liveBtn{
+    color: #E04343;
+    background-color: #122333;
+    padding: 10px 25px;
+    border: solid 1px ;
+    text-align: center;
+    background: linear-gradient(to left, #fff 50%, #122333 50%) right;
+    background-size: 200%;
+    transition: .4s ease-out;
+    margin: 5px;
+    border-radius: 5px;
+}
+.liveBtn:hover{
+    transform:scale(.98);
+    background-position: left;
+}
+
+.zoom {
+    transition: transform 1.5s;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.1); 
+    z-index: 1;
+    box-shadow: 10px 10px 40px lightgray
+  }
+  .showStyle{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+  }
+  .displayDesign{
+    width: 48%;
+  }
+
+
+.line {
+    position: relative;
+    top: 50%;
+    width: 6em;
+    margin: 0 auto;
+    /* border-right: 2px solid rgba(212, 145, 145, 0.75); */
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+
+/*Animation*/
+
+.animation {
+    animation: typewriter 2s steps(15),
+    blinkTextCursor 800ms steps(15);
+}
+
+@keyframes typewriter {
+    from {
+          width: 0;
+    }
+    to {
+          width: 6em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+          border-right-color: rgba(83, 38, 38, 0.75);
+    }
+    to {
+          border-right-color: transparent;
+    }
+}
+
+@media only screen and (max-width: 700px) and ( min-width: 200px) {
+    .line {
+      font-size: 3vw;
+    }
+    .textResponsive{
+        font-size: 2.8vw;
+    }
+    .liveBtn , .githubBtn{
+        padding: 5px 10px;
+        font-size: 2.5vw;
+    }
+    .showStyle{
+       flex-direction: column;
+    }
+  }

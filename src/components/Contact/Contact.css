@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.contactPageLayout{
+    display: grid;
+    grid-template-columns:.7fr 1.5fr;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+.left{
+    border-right: 1px dotted rgb(133, 63, 63);
+}
+.cardStyle{
+    border-bottom: 3px solid tomato;
+    position: relative;
+    transition: 0.6s ease-in-out ;
+    
+}
+.cardStyle:hover{
+    border-bottom: 3px solid #d5c455;
+    transform: translateX(-15px);
+}
+
+.contactDiv{
+    margin-top: 120px;
+}
+
+@media only screen and (max-width: 700px) and ( min-width: 200px) {
+    .contactPageLayout{
+        grid-template-columns:1fr;
+    }
+    .cardStyle{
+       margin: auto;
+    }
+    .bodyDesign{
+        width: 75%;
+    }
+    .contactHeader{
+        font-size: 28px;
+    }
+}
