@@ -3,7 +3,7 @@ import Header from '../Header/Header';
 import './Resume.css';
 import profile from '../../images/andyone--WW8jBak7bo-unsplash.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAccusoft, faGithub, faGoogle, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faAccusoft, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faDownload, faEnvelope, faGraduationCap, faHome, faPhoneAlt, faTasks, faTools } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import Aos from 'aos';
