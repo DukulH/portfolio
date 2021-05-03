@@ -5,6 +5,7 @@ import {
   Route,
 } from "react-router-dom";
 import Home from './components/Home/Home';
+import Resume from './components/Resume/Resume';
 
 
 
@@ -18,6 +19,9 @@ function App() {
           </Route>
           <Route exact path="/">
            <Home></Home>
+          </Route>
+          <Route exact path="/resume">
+           <Resume></Resume>
           </Route>
         </Switch>
     </Router>

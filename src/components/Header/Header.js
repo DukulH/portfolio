@@ -34,10 +34,10 @@ const Header = () => {
                     <div id="bar3" className="bar"></div>
                 </div>
                 <ul className="navigation" id="nav">
-                    <li className="navItem"><a className="navLinkStyle" href="#home">Home</a></li>
+                    <li className="navItem"><a className="navLinkStyle" href="/home">Home</a></li>
                     <li className="navItem"><a className="navLinkStyle" href="#projects">Projects</a></li>
                     <li className="navItem"><a className="navLinkStyle" href="#blogs">Blog</a></li>
-                    <li className="navItem"><a className="navLinkStyle" href="#a">Resume</a></li>
+                    <li className="navItem"><a className="navLinkStyle" href="/resume">Resume</a></li>
                     <li className="navItem"><a className="navLinkStyle" href="#contact">Contact</a></li>
                 </ul>
             </div>

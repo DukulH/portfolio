@@ -1,0 +1,48 @@
+.resume{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.profile{
+    width: 40%;
+    margin-right: 2%;
+    color: #072936;
+}
+.details{
+    width: 55%;
+    color: #072936;
+}
+.cardHead{
+    color: #D1D68A;
+}
+.cardInnerGap{
+    padding: 50px;
+}
+.activitySection{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.activity1{
+    margin-right:10px ;
+    width: 30%;
+}
+.activity2{
+    
+    width: 60%;
+}
+
+@media only screen and (max-width: 700px) and ( min-width: 200px) {
+    .profile, .details, .activity2, .activity1{
+        width: 90%;
+    }
+    .resume, .activitySection{
+        flex-direction: column;
+    }
+    .cardInnerGap{
+        padding: 0;
+    }
+    .profile{
+        margin: auto;
+    }
+}
